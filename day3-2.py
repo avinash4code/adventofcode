@@ -38,8 +38,8 @@ def getDistanceFromCenter(loc):
     return abs(loc[0]) + abs(loc[1])
 
 
-path1 = open('input3.txt', 'r').readlines()[0].split(',')
-path2 = open('input3.txt', 'r').readlines()[1].split(',')
+path1 = open('input3-1.txt', 'r').readlines()[0].split(',')
+path2 = open('input3-1.txt', 'r').readlines()[1].split(',')
 # path1 = 'R8,U5,L5,D3'.split(',')
 # path2 = 'U7,R6,D4,L4'.split(',')
 
